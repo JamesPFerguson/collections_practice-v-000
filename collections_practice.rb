@@ -51,7 +51,6 @@ end
 
 def add_s(arr)
 
-    arr.each_with_index {|word, index| word += "s" if index != 1}
-    arr
+     a = arr.each_with_index {|word, index| word += "s" if index != 1}
 
 end
