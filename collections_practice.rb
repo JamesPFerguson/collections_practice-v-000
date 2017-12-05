@@ -34,3 +34,9 @@ def kesha_maker(arr)
     word[2] = "$"
   end
 end
+
+def find_a(arr)
+  arr.find_all do |word|
+    word.start_with?("a")
+  end
+end
