@@ -30,7 +30,7 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.map do |word|
+  arr.each do |word|
     word[3] = "$"
   end
 end
