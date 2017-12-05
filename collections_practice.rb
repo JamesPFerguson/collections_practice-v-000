@@ -50,7 +50,12 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-
-     a = arr.each_with_index {|word, index| word += "s" if index != 1}
-     a
+  a = []
+     arr.each_with_index do |word, index|
+      if index != 1
+      a[index] = word += "s"
+      else
+      a]index] = word
+    end
+      
 end
