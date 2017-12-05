@@ -58,4 +58,5 @@ def add_s(arr)
       a[index] = word
     end
   end
+  a
 end
